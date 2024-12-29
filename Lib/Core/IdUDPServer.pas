@@ -296,9 +296,6 @@ end;
 {$IFDEF LINUX} // should this be UNIX instead?
   {$UNDEF CanCreateTwoBindings}
 {$ENDIF}
-{$IFDEF SOLARIS}
-  {$UNDEF CanCreateTwoBindings}
-{$ENDIF}
 {$IFDEF ANDROID}
   {$UNDEF CanCreateTwoBindings}
 {$ENDIF}
